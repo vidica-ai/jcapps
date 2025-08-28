@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables - CRITICAL SECURITY
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Security sensitive files
+*.pem
+*.key
+*.cert
+config/secrets.json
+secrets/
+
+# Project specific files with credentials
+create-user*.js
+setup-profiles*.js
+execute-profiles*.js
+auth-create.js
+PROFILES_SQL_SETUP.sql
+
+# Frontend build files
+jcapps-frontend/build/
+jcapps-frontend/dist/
