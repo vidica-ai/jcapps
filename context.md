@@ -49,6 +49,15 @@ npm start
 ```
 Application runs on http://localhost:3000
 
+**Command to run app:**
+```bash
+cd jcapps-frontend && npm start
+```
+
+**Command to stop app:**
+- Press `Ctrl+C` in terminal
+- Or use: `pkill -f "react-scripts start"`
+
 ## Implemented Features
 
 ### Authentication System
